@@ -31,69 +31,55 @@
 
       <div class="columna-8 columna-4-esc">
         <p class="piepagina-titulo">Enlaces</p>
-
         <ul>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="https://datos.gob.mx/"
+              href="https://participa.gob.mx"
               target="_blank"
               rel="noopener noreferrer"
-              >Datos</a
+              class="hipervinculo-gobmx"
+              title="Enlace abre en ventana nueva"
+              >Participa</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="https://www.gob.mx/publicaciones"
+              href="http://www.ordenjuridico.gob.mx"
               target="_blank"
               rel="noopener noreferrer"
-              >Publicaciones</a
+              class="hipervinculo-gobmx"
+              title="Enlace abre en ventana nueva"
+              >Marco Jurídico</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="https://consultapublicamx.plataformadetransparencia.org.mx"
+              href="https://consultapublicamx.inai.org.mx/vut-web/"
               target="_blank"
               rel="noopener noreferrer"
-              >Portal de Obligaciones de Transparencia</a
+              class="hipervinculo-gobmx"
+              title="Enlace abre en ventana nueva"
+              >Plataforma Nacional de Transparencia</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="https://www.infomex.org.mx/gobiernofederal/home.action"
+              href="https://transparencia.gob.mx"
               target="_blank"
               rel="noopener noreferrer"
-              >PNT</a
+              class="hipervinculo-gobmx"
+              title="Enlace abre en ventana nueva"
+              >Transparencia para el pueblo</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="http://www.inai.org.mx/"
+              href="https://alertadores.funcionpublica.gob.mx/"
               target="_blank"
               rel="noopener noreferrer"
-              >INAI</a
-            >
-          </li>
-          <li>
-            <a
               class="hipervinculo-gobmx"
-              href="http://alertadores.funcionpublica.gob.mx/"
-              target="_blank"
-              rel="noopener noreferrer"
+              title="Enlace abre en ventana nueva"
               >Alerta</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
-              href="http://sidec.funcionpublica.gob.mx/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Denuncia</a
             >
           </li>
         </ul>
@@ -106,7 +92,7 @@
           Es el portal único de trámites, información y participación ciudadana.
           <a
             href="https://www.gob.mx/que-es-gobmx"
-            class="hipervinculo-gobmx"
+            class="hipervinculo-gobmx hipervinculo-subrayado"
             target="_blank"
             rel="noopener noreferrer"
             >Leer más</a
@@ -116,84 +102,39 @@
         <ul>
           <li>
             <a
+              href="https://datos.gob.mx"
               class="hipervinculo-gobmx"
-              href="https://www.gob.mx/amlo"
               target="_blank"
               rel="noopener noreferrer"
-              >Administraciones anteriores</a
+              >Portal de datos abiertos</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
               href="https://www.gob.mx/accesibilidad"
+              class="hipervinculo-gobmx"
               target="_blank"
               rel="noopener noreferrer"
-              >Declaración de Accesibilidad</a
+              >Declaración de accesibilidad</a
             >
           </li>
           <li>
             <a
-              class="hipervinculo-gobmx"
-              href="https://www.gob.mx/privacidadintegral"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Aviso de privacidad</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
-              href="https://www.gob.mx/privacidadsimplificado"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Aviso de privacidad simplificado</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
               href="https://www.gob.mx/terminos"
+              class="hipervinculo-gobmx"
               target="_blank"
               rel="noopener noreferrer"
               >Términos y Condiciones</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
-              href="https://www.gob.mx/terminos#medidas-seguridad-informacion"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Política de seguridad</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
-              href="http://www.ordenjuridico.gob.mx/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Marco jurídico</a
-            >
-          </li>
-          <li>
-            <a
-              class="hipervinculo-gobmx"
-              href="https://www.gob.mx/sitemap"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Mapa de sitio</a
             >
           </li>
         </ul>
       </div>
 
       <div class="columna-8 columna-4-esc">
-        <p>
+        <p class="piepagina-titulo">
           <a
-            class="hipervinculo-gobmx"
-            href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54"
+            class="hipervinculo-gobmx hipervinculo-subrayado"
+            href="https://sidec.buengobierno.gob.mx/#!/"
             target="_blank"
             rel="noopener noreferrer"
             >Denuncia contra servidores públicos</a
@@ -271,7 +212,6 @@
     </div>
   </div>
 </template>
-
 
 <script setup>
 const cdn = import.meta.env.VITE_CDN_ARCHIVOS
