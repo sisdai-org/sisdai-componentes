@@ -5,11 +5,17 @@ Todos los cambios más importantes de este proyecto se documentan en este archiv
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.1.0)
 y este proyecto se adhiere al [Versionamiento semántico](https://semver.org/spec/v2.0.0.html).
 
-*Nota: Este Changelog se comenzó el 2024-10-28. Se documentaron hacia atrás los cambios más relevantes
+\*Nota: Este Changelog se comenzó el 2024-10-28. Se documentaron hacia atrás los cambios más relevantes
 de la biblioteca. Por lo tanto no se listan aquí todos los tags existentes.
 
 Al principio de cada entrada se lista la versión de la biblioteca de sisdai-css con la
 que la versión indicada de sisdai-componentes es compatible y tiene instalada.
+
+## [4.12.6] - 2025-09-30
+
+### Arreglado (Fixed)
+
+- Se actualizó el pie de página de gobierno para que sea lo más parecido a la última actualización del framework de gobierno.
 
 ## [4.12.5] - 2024-12-17
 
@@ -22,7 +28,6 @@ que la versión indicada de sisdai-componentes es compatible y tiene instalada.
 ### Arreglado (Fixed)
 
 - Se homologan nombres de los componentes en la barra de navegación secundaria, pestañas y documentación
-
 
 ## [4.12.3] - 2024-12-17
 
@@ -268,6 +273,7 @@ sisdai-css v0.37.3
 
 Primera versión estable
 
+[4.12.6]: https://codigo.conahcyt.mx/sisdai/sisdai-componentes/compare/v4.12.5...v4.12.6
 [4.12.5]: https://codigo.conahcyt.mx/sisdai/sisdai-componentes/compare/v4.12.4...v4.12.5
 [4.12.4]: https://codigo.conahcyt.mx/sisdai/sisdai-componentes/compare/v4.12.3...v4.12.4
 [4.12.3]: https://codigo.conahcyt.mx/sisdai/sisdai-componentes/compare/v4.12.0...v4.12.3
