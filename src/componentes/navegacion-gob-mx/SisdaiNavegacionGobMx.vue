@@ -147,7 +147,7 @@ const cdn = import.meta.env.VITE_CDN_ARCHIVOS
           <li>
             <a
               testid="nav-hipervinculo"
-              href="https://www.gob.mx/tramites"
+              href="https://www.gob.mx"
               class="nav-hipervinculo"
               target="_blank"
               rel="noopener"
@@ -169,7 +169,7 @@ const cdn = import.meta.env.VITE_CDN_ARCHIVOS
           </li>
           <li>
             <a
-              href="https://www.gob.mx/busqueda"
+              href="https://www.gob.mx"
               class="nav-hipervinculo"
               aria-label="Ir a búsqueda"
               target="_blank"
