@@ -1,5 +1,5 @@
 {
-  "name": "@centrogeomx/sisdai-componentes",
+  "name": "@sisdai-org/sisdai-componentes",
   "version": "4.14.1",
   "publishConfig": {
     "access": "public"
@@ -79,5 +79,5 @@
   "bugs": {
     "url": "https://github.com/CentroGeo/sisdai-componentes/issues"
   },
-  "homepage": "https://sisdai-componentes.conahcyt.mx"
+  "homepage": "https://componentes.sisdai.org"
 }
