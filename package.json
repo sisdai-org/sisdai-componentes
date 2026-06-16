@@ -1,6 +1,6 @@
 {
   "name": "@sisdai-org/sisdai-componentes",
-  "version": "4.14.1",
+  "version": "4.15.0",
   "publishConfig": {
     "access": "public"
   },
