@@ -15,6 +15,7 @@
 
 import {
   SisdaiAreaTexto,
+  SisdaiAreaTextoJS,
   SisdaiAudio,
   SisdaiBotonFlotante,
   SisdaiBotonRadio,
@@ -86,6 +87,7 @@ const plugin = {
 
 export {
   SisdaiAreaTexto,
+  SisdaiAreaTextoJS,
   SisdaiAudio,
   GlobosInformacion,
   SisdaiBotonFlotante,

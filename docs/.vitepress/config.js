@@ -84,6 +84,12 @@ export default {
     sidebar: {
       '/comienza/': sidebarComienza('comienza'),
       '/componentes/': sidebarComponentes('componentes'),
+      '/pruebaclaude/': [
+        {
+          text: 'Prueba Claude',
+          link: '/pruebaclaude/',
+        },
+      ],
     },
 
     socialLinks: [
@@ -121,6 +127,11 @@ function nav() {
       text: 'Componentes',
       link: '/componentes/area-texto/',
       activeMatch: 'componentes',
+    },
+    {
+      text: 'Prueba Claude',
+      link: '/pruebaclaude/',
+      activeMatch: 'pruebaclaude',
     }
   ]
 }

@@ -14,6 +14,7 @@
 //   with sisdai-componentes. If not, see <https://www.gnu.org/licenses/>.
 
 import SisdaiAreaTexto from './SisdaiAreaTexto.vue'
+import SisdaiAreaTextoJS from './SisdaiAreaTextoJS.js'
 
 const plugin = {
   install: function (Vue) {
@@ -21,4 +22,5 @@ const plugin = {
   },
 }
 
+export { SisdaiAreaTexto, SisdaiAreaTextoJS }
 export default plugin

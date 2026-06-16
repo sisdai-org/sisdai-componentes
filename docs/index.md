@@ -53,6 +53,25 @@ title: Inicio
           </div>
         </a>
       </div>
+      <div class="columna-8">
+        <a class="tarjeta tarjeta-hipervinculo-interno" href="/pruebaclaude/">
+          <picture>
+            <source :srcset="`${cdn}inicio/tarjeta-sisdai-componentes.webp`" type="image/webp" />
+            <img
+              loading="lazy"
+              class="tarjeta-imagen"
+              :src="`${cdn}inicio/tarjeta-sisdai-componentes.png`"
+              alt=""
+            />
+          </picture>
+          <div class="tarjeta-cuerpo">
+            <p class="h4">pruebaclaude</p>
+              <p>
+                Esta es una tarjeta de prueba creada por Claude
+              </p>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
   <section id="otras-biliotecas" class="m-y-10-esc m-y-5-mov">
