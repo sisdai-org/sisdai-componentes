@@ -1,6 +1,6 @@
 {
-  "name": "@centrogeomx/sisdai-componentes",
-  "version": "4.14.1",
+  "name": "@sisdai-org/sisdai-componentes",
+  "version": "4.15.0",
   "publishConfig": {
     "access": "public"
   },
@@ -16,14 +16,16 @@
     "Conahcyt"
   ],
   "contributors": [
-    "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)",
+    "Eric Torres <erictorres.velasco@hotmail.com> (https://github.com/ciretorres)",
     "Andrés Martínez González <andres.geotec@gmail.com> (https://github.com/andres-geotec)",
     "Daniel Gómez Hernández <gomezhernandez.dan@gmail.com> (https://github.com/jdanielgoh)",
-    "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)",
-    "Eric Torres <erictorres.velasco@hotmail.com> (https://github.com/ciretorres)",
     "Flkt <flkt.crnpio@gmail.com> (https://github.com/flkt-crnpio)",
     "Miguel Ángel Martínez <migueldnt.dev@gmail.com> (https://github.com/migueldnt)",
     "Paulina Pradel <pradel.paulina@gmail.com> (https://github.com/paupradel)"
+  ],
+  "pastContributors": [
+  "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)",
+  "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)"
   ],
   "files": [
     "src",
@@ -79,5 +81,5 @@
   "bugs": {
     "url": "https://github.com/CentroGeo/sisdai-componentes/issues"
   },
-  "homepage": "https://sisdai-componentes.conahcyt.mx"
+  "homepage": "https://componentes.sisdai.org"
 }
