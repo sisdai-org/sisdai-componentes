@@ -13,30 +13,45 @@ const navegacionPrincipal = ref(null)
     :nav-informacion="`Sección: <b>${page.title}</b>`"
     ref="navegacionPrincipal"
   >
-    <template #complementario>
-      <div class="nav-menu-contenedor">
+    <!--Definiendo el logo del sitio-->
+    <template #identidad>
       <a
-        class="nav-hipervinculo"
-        href="https://sisdai.conahcyt.mx"
+        href="https://sisdai.org"
         target="_blank"
         rel="noopener noreferrer"
+        class="nav-hiperviculo-logo"
       >
-        <b>IR A SISDAI</b>
+        <img
+          :src="`../../public/sisdai.png`"
+          class="nav-logo color-invertir"
+          alt="Sisdai."
+        />
       </a>
-      <a
+    </template>
+    <template #complementario>
+      <div class="nav-menu-contenedor">
+        <a
+          class="nav-hipervinculo"
+          href="https://sisdai.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <b>IR A SISDAI</b>
+        </a>
+        <a
           class="nav-hipervinculo"
           :href="pkg.repository.url"
           :aria-label="`Repositorio de código sisdai-componentes versión ${pkg.version}`"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span 
-            class="pictograma-social-github m-r-1" 
+          <span
+            class="pictograma-social-github m-r-1"
             aria-hidden="true"
           ></span>
           <b> {{ `v${pkg.version}` }} </b>
         </a>
-    </div>
+      </div>
     </template>
     <ul class="nav-menu">
       <li

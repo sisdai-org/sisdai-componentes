@@ -57,7 +57,7 @@ function alAlternarMenuLateral(navSecundariaAbierta) {
 //    ]
 // }
 function listaSidebar({ sidebar }, { relativePath }) {
-  let ruta_inicial = `/${relativePath.split('/')[0]}/` 
+  let ruta_inicial = `/${relativePath.split('/')[0]}/`
   ruta_inicial = ruta_inicial || '/'
   return sidebar[ruta_inicial]
 }
@@ -80,7 +80,7 @@ watch(route, () => {
       Ir a contenido principal
     </a>
 
-    <SisdaiNavegacionGobMx />
+<!--    <SisdaiNavegacionGobMx />-->
     <NavegacionPrincipal />
 
     <SisdaiMenuAccesibilidad
@@ -126,7 +126,7 @@ watch(route, () => {
         </SisdaiMenuLateral>
       </div>
 
-      <div 
+      <div
       :class="{ 'columna-12-esc columna-7-mov': !esInicio, 'columna-16-esc': esInicio }">
         <div
           id="contenido-documento"
@@ -159,12 +159,12 @@ watch(route, () => {
           </div>
 
           <div
-            
+
             tabindex="-1"
             :class="{ 'columna-12-esc columna-8-mov': !esInicio, 'columna-16-esc': esInicio }"
           >
             <div class="contenedor m-y-maximo-esc">
-              <div 
+              <div
               :class="{ 'ancho-lectura': !esInicio, 'ancho-fijo': esInicio }">
                 <main
                   role="main"
@@ -179,8 +179,8 @@ watch(route, () => {
       </div>
     </div>
 
-    <SisdaiPiePaginaConahcyt />
-    <SisdaiPiePaginaGobMx />
+<!--    <SisdaiPiePaginaConahcyt />-->
+<!--    <SisdaiPiePaginaGobMx />-->
   </div>
 </template>
 

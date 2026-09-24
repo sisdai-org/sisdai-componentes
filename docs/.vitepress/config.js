@@ -208,10 +208,10 @@ function sidebarComponentes(path) {
       text: 'Narrativa',
       link: `/${path}/narrativa/`,
     },
-    {
-      text: 'Navegación GobMx',
-      link: `/${path}/navegacion-gob-mx/`,
-    },
+    // {
+    //   text: 'Navegación GobMx',
+    //   link: `/${path}/navegacion-gob-mx/`,
+    // },
     {
       text: 'Navegación principal',
       link: `/${path}/navegacion-principal/`,
@@ -224,10 +224,10 @@ function sidebarComponentes(path) {
       text: 'Pie de página Conahcyt',
       link: `/${path}/pie-pagina-conahcyt/`,
     },
-    {
-      text: 'Pie de página GobMx',
-      link: `/${path}/pie-pagina-gob-mx/`,
-    },
+    // {
+    //   text: 'Pie de página GobMx',
+    //   link: `/${path}/pie-pagina-gob-mx/`,
+    // },
     {
       text: 'Selector',
       link: `/${path}/selector/`,
