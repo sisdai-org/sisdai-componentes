@@ -22,7 +22,7 @@ const navegacionPrincipal = ref(null)
         class="nav-hiperviculo-logo"
       >
         <img
-          :src="`../../public/sisdai.png`"
+          :src="`/sisdai.png`"
           class="nav-logo color-invertir"
           alt="Sisdai."
         />
