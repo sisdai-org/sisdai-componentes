@@ -1,6 +1,6 @@
 {
   "name": "@sisdai-org/sisdai-componentes",
-  "version": "4.15.0",
+  "version": "4.16.0",
   "publishConfig": {
     "access": "public"
   },
@@ -24,8 +24,8 @@
     "Paulina Pradel <pradel.paulina@gmail.com> (https://github.com/paupradel)"
   ],
   "pastContributors": [
-  "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)",
-  "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)"
+    "Alonso Cortés Solís <alo.acs@gmail.com> (https://github.com/AlonsoCortes)",
+    "Diana Elizabeth Minor <deminore@hotmail.com> (https://github.com/deminore)"
   ],
   "files": [
     "src",
